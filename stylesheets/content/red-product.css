@@ -1,0 +1,18 @@
+/* line 1, ../../sass/content/red-product.sass */
+.red-product {
+  width: 180px;
+  height: 180px;
+  background: #ff5649;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 200px;
+}
+/* line 8, ../../sass/content/red-product.sass */
+.red-product .none {
+  background: rgba(255, 86, 73, 0.6);
+}
+/* line 11, ../../sass/content/red-product.sass */
+.red-product a img {
+  margin-top: -2px;
+  margin-left: 9px;
+}

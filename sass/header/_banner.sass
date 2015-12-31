@@ -1,0 +1,39 @@
+.banner
+	margin-bottom: 3.8%
+	text-align: center
+	position: relative
+	+breakpoint($break-767)
+		margin-bottom: 0px
+	img
+		width: 100%
+		+box-sizing(border-box)
+		bottom: 0px
+
+.banner-text
+	width: 100%
+	color: #fff
+	position: absolute
+	bottom:  71px
+	left: 0
+	+breakpoint($break-479)
+		bottom: 0px
+	h1
+		font-family: $Alte
+		margin: auto
+		font-size: 69.99px
+		text-transform: uppercase
+		+breakpoint($break-1023)
+			font-size: 48px
+		+breakpoint($break-767)
+			padding: 0px 20px
+			font-size: 40px
+		+breakpoint($break-479)
+			font-size: 28px
+	p
+		font-family: $UniLT
+		color: #fff
+		margin-top: 0px
+		font-size: 25px
+		line-height: 16px
+		+breakpoint($break-767)
+			font-size: 100%

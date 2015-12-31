@@ -1,0 +1,18 @@
+/* line 1, ../../sass/content/green-product.sass */
+.green-product {
+  width: 180px;
+  height: 180px;
+  background: #6fc125;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 200px;
+}
+/* line 9, ../../sass/content/green-product.sass */
+.green-product a img {
+  margin-top: 10px;
+  margin-left: 6px;
+}
+/* line 12, ../../sass/content/green-product.sass */
+.green-product .none {
+  background: rgba(111, 193, 37, 0.6);
+}

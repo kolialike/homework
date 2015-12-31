@@ -1,0 +1,58 @@
+.header-menu 
+	font-family: $segoe-r
+	padding: 2px 12px
+	+border-radius(3px)
+	margin-right: 42px
+	color: #fff
+	+breakpoint($break-767)
+		display: none
+		position: absolute
+		z-index: 1
+		right: -20px
+		top: 42px
+		padding-top: 52px
+		margin-top: -52px
+	li
+		padding-left: 36px
+		float: left
+		+breakpoint($break-767)
+			background: #fff
+			padding: 1px 15px 5px	
+			background: rgba(255, 255, 255, 0.9)
+			float: none
+			display: block	
+		a
+			color: #454545
+			font-size: 16.99px
+			&:hover
+				text-decoration: underline
+		&:first-child
+			+breakpoint($break-767)
+				padding-top: 10px
+	.login
+		padding: 2px 12px
+		background-color: #de6d6e
+		border-radius: 3px
+		margin-right: 42px
+		color: #fff
+		+breakpoint($break-767)
+			display: block
+			margin-top: 5px
+			margin-bottom: 10px
+		&:hover
+			text-decoration: none
+			background: #ea4344
+			+transition(0.5s)
+
+.header-menu-wrap
+	right: 0px
+	top: 33px
+	position: absolute
+	+breakpoint($break-767)
+		top: 10px
+		right: 20px
+	&:hover
+		.header-menu
+			+breakpoint($break-767)
+				display: block
+	
