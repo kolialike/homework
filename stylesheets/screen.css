@@ -66,26 +66,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 @font-face {
   font-family: 'segoe_uiregular';
   src: url('../fonts/segoeui-webfont.eot?1412687082');
-  src: url('../fonts/segoeui-webfont.eot?&1412687082#iefix') format("embedded-opentype"), url('../fonts/segoeui-webfont.woff2?1412687082') format("woff2"), url('../fonts/segoeui-webfont.woff?1412687082') format("woff"), url('../fonts/segoeui-webfont.ttf?1412687082') format("truetype"), url('../fonts/segoeui-webfont.svg?1412687082#segoe_uiregular') format("svg");
+  src: url('../fonts/segoeui-webfont.eot?&1412687082#iefix') format("embedded-opentype"), url('../fonts/segoeui-webfont.woff2?1412687082') format("woff2"), url('../fonts/segoeui-webfont.woff?1412687082') format("woff"), url('../fonts/segoeui-webfont.ttf?1412687082') format("truetype"), url('../fonts/segoeui-webfont.svg#segoe_uiregular') format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'UniversLT45LightRegular';
   src: url('../fonts/univers-lt-45-light.eot?1412677542');
-  src: url('../fonts/univers-lt-45-light.eot?1412677542') format("embedded-opentype"), url('../fonts/univers-lt-45-light.woff2?1412677556') format("woff2"), url('../fonts/univers-lt-45-light.woff?1412677542') format("woff"), url('../fonts/univers-lt-45-light.ttf?1031226966') format("truetype"), url('../fonts/univers-lt-45-light.svg?1412677542#UniversLT45LightRegular') format("svg");
+  src: url('../fonts/univers-lt-45-light.eot?1412677542') format("embedded-opentype"), url('../fonts/univers-lt-45-light.woff2?1412677556') format("woff2"), url('../fonts/univers-lt-45-light.woff?1412677542') format("woff"), url('../fonts/univers-lt-45-light.ttf?1031226966') format("truetype"), url('../fonts/univers-lt-45-light.svg#UniversLT45LightRegular') format("svg");
 }
 @font-face {
   font-family: 'alte_haas_groteskbold';
   src: url('../fonts/altehaasgroteskbold_0-webfont.eot?1412687082');
-  src: url('../fonts/altehaasgroteskbold_0-webfont.eot?&1412687082#iefix') format("embedded-opentype"), url('../fonts/altehaasgroteskbold_0-webfont.woff2?1412687082') format("woff2"), url('../fonts/altehaasgroteskbold_0-webfont.woff?1412687082') format("woff"), url('../fonts/altehaasgroteskbold_0-webfont.ttf?1412687082') format("truetype"), url('../fonts/altehaasgroteskbold_0-webfont.svg?1412687082#alte_haas_groteskbold') format("svg");
+  src: url('../fonts/altehaasgroteskbold_0-webfont.eot?&1412687082#iefix') format("embedded-opentype"), url('../fonts/altehaasgroteskbold_0-webfont.woff2?1412687082') format("woff2"), url('../fonts/altehaasgroteskbold_0-webfont.woff?1412687082') format("woff"), url('../fonts/altehaasgroteskbold_0-webfont.ttf?1412687082') format("truetype"), url('../fonts/altehaasgroteskbold_0-webfont.svg#alte_haas_groteskbold') format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "untitled-font-1";
   src: url('../fonts/untitled-font-1.eot?1413211628');
-  src: url('../fonts/untitled-font-1.eot?&1413211628#iefix') format("embedded-opentype"), url('../fonts/untitled-font-1.woff?1413211628') format("woff"), url('../fonts/untitled-font-1.ttf?1413211628') format("truetype"), url('../fonts/untitled-font-1.svg?1413211628#untitled-font-1') format("svg");
+  src: url('../fonts/untitled-font-1.eot?&1413211628#iefix') format("embedded-opentype"), url('../fonts/untitled-font-1.woff?1413211628') format("woff"), url('../fonts/untitled-font-1.ttf?1413211628') format("truetype"), url('../fonts/untitled-font-1.svg#untitled-font-1') format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -239,19 +239,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     display: none;
     position: absolute;
     z-index: 1;
-    right: -20px;
+    right: -40px;
     top: 42px;
-    padding-top: 52px;
+    padding: 52px 0px 0px;
     margin-top: -52px;
   }
 }
-/* line 15, ../sass/partials/header/_header-menu.sass */
+/* line 16, ../sass/partials/header/_header-menu.sass */
 .header-menu li {
   padding-left: 36px;
   float: left;
 }
 @media screen and (max-width: 767px) {
-  /* line 15, ../sass/partials/header/_header-menu.sass */
+  /* line 16, ../sass/partials/header/_header-menu.sass */
   .header-menu li {
     background: #fff;
     padding: 1px 15px 5px;
@@ -260,22 +260,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     display: block;
   }
 }
-/* line 24, ../sass/partials/header/_header-menu.sass */
+/* line 25, ../sass/partials/header/_header-menu.sass */
 .header-menu li a {
   color: #454545;
   font-size: 16.99px;
 }
-/* line 27, ../sass/partials/header/_header-menu.sass */
+/* line 28, ../sass/partials/header/_header-menu.sass */
 .header-menu li a:hover {
   text-decoration: underline;
 }
 @media screen and (max-width: 767px) {
-  /* line 29, ../sass/partials/header/_header-menu.sass */
+  /* line 30, ../sass/partials/header/_header-menu.sass */
   .header-menu li:first-child {
     padding-top: 10px;
   }
 }
-/* line 32, ../sass/partials/header/_header-menu.sass */
+/* line 33, ../sass/partials/header/_header-menu.sass */
 .header-menu .login {
   padding: 2px 12px;
   background-color: #de6d6e;
@@ -284,14 +284,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: #fff;
 }
 @media screen and (max-width: 767px) {
-  /* line 32, ../sass/partials/header/_header-menu.sass */
+  /* line 33, ../sass/partials/header/_header-menu.sass */
   .header-menu .login {
     display: block;
     margin-top: 5px;
     margin-bottom: 10px;
   }
 }
-/* line 42, ../sass/partials/header/_header-menu.sass */
+/* line 43, ../sass/partials/header/_header-menu.sass */
 .header-menu .login:hover {
   text-decoration: none;
   background: #ea4344;
@@ -301,22 +301,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   transition: 0.5s;
 }
 
-/* line 47, ../sass/partials/header/_header-menu.sass */
+/* line 48, ../sass/partials/header/_header-menu.sass */
 .header-menu-wrap {
   right: 0px;
   top: 33px;
   position: absolute;
 }
 @media screen and (max-width: 767px) {
-  /* line 47, ../sass/partials/header/_header-menu.sass */
+  /* line 48, ../sass/partials/header/_header-menu.sass */
   .header-menu-wrap {
     top: 10px;
     right: 20px;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 55, ../sass/partials/header/_header-menu.sass */
-  .header-menu-wrap:hover .header-menu {
+  /* line 57, ../sass/partials/header/_header-menu.sass */
+  .header-menu-wrap.open .header-menu {
     display: block;
   }
 }
@@ -399,7 +399,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 @media screen and (max-width: 767px) {
   /* line 5, ../sass/partials/content/_product-text-items.sass */
   .product-text h3 {
-    margin-top: 0px;
+    margin-top: 20px;
   }
 }
 @media screen and (max-width: 479px) {
@@ -800,22 +800,14 @@ a {
   text-decoration: none;
 }
 
-/* line 16, ../sass/partials/_base.sass */
-p {
-  margin: 15px 0;
-  color: #808080;
-  font-size: 13px;
-  line-height: 130%;
-}
-
-/* line 22, ../sass/partials/_base.sass */
+/* line 18, ../sass/partials/_base.sass */
 ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-/* line 27, ../sass/partials/_base.sass */
+/* line 23, ../sass/partials/_base.sass */
 .wrapper {
   position: relative;
   max-width: 1024px;
